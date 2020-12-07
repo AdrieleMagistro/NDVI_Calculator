@@ -9,7 +9,7 @@ The specifications of the RedEdge-MX sensor are shown in the figure below, and c
 https://micasense.com/rededge-mx/
 ![](https://github.com/AdrieleMagistro/terraview/blob/main/imgs/redEdge_specs.png)
 
-The purpose of this task is to calculate the Normalized difference vegetation index from a starting image acquired with the RedEdge-MX sensor. From Wikipedia: 
+The purpose of this task is to calculate the normalized difference vegetation index from a starting image acquired with the RedEdge-MX sensor. From Wikipedia: 
 https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index
 it can be calculated using the following formula:
 
@@ -78,7 +78,7 @@ Finally, I got the following image as requested by the Task.
 ![](https://github.com/AdrieleMagistro/terraview/blob/main/imgs/ndvi.png)
 
 ## QGIS Visualization
-To make the result clearer, since the health of the plants can be related to NVDI in the way shown in the following image, I decided to use the QGIS Open Source Tool and choose a color scale that reflects the correlation described above.
+To make the result clearer, since the health of the plants can be related to NVDI in the way shown in the following image, I decided to use the QGIS Open Source Tool and choose a color scale that reflects the correlation previously described.
 ![](https://github.com/AdrieleMagistro/terraview/blob/main/imgs/plants_h.jpg)
 
 The final result is shown in the following figure.
