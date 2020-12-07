@@ -22,13 +22,6 @@ def getRasterBand(fn, band=1, access=0):
     ds = openRaster(fn, access)
     band = ds.GetRasterBand(band).ReadAsArray()
     return band
-
-def createRasterFromCopy(fn, ds, data, driverFmt="GTiff"):
-    driver = gdal.GetDriverByName(driverFmt)
-    outds = driver.CreateCopy(fn, ds, strict=0)
-    outds.GetRasterBand(1).WriteArray()
-    ds = None
-    outds = None
     
 def createRasterFromTemplate(fn, ds, data, ndv=-9999.0, driverFmt="GTiff"):
     driver = gdal.GetDriverByName(driverFmt)
