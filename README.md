@@ -1,6 +1,4 @@
 # NDVI_Calculator
-# Power by:
-![](https://github.com/AdrieleMagistro/terraview/blob/main/imgs/terraview.png)
 
 ## Initial Information
 From the information in my possession, the image from which the **normalized difference vegetation index (NDVI)** must be extrapolated is a 5-band orthomosaic from a flight using a RedEdge-MX camera.
